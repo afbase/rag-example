@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="modulepreload" href="/rag-example-20bd5ccece1a6a70.js" crossorigin=anonymous integrity="sha384-qnTPTAn1v1Q8jDcY3nx87oyYefxASKQt5EU861CpO5AaEnKykPkxH1D7DWXnoeG2"><link rel="preload" href="/rag-example-20bd5ccece1a6a70_bg.wasm" crossorigin=anonymous integrity="sha384-VJoRJVOGdG9GPKctq8U0eKEO/X+3Y9iQY4iqBq3zVkuUuhMyAd2HYS0Ugzg+0lTC" as="fetch" type="application/wasm"></head>
+<body>
+    <div id="rag-example"></div>
+
+<script type="module" nonce="/qziBnbzhk9BUVEHupfB5w==">
+import init, * as bindings from '/rag-example-20bd5ccece1a6a70.js';
+const wasm = await init({ module_or_path: '/rag-example-20bd5ccece1a6a70_bg.wasm' });
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script></body>
+</html>
