@@ -4,7 +4,7 @@ This project is a web application built with Yew that interfaces with a locally 
 
 ## Youtube Demo (~3 and half minutes long)
 
-https://www.youtube.com/embed/Rf7OFcIKaXQ
+https://www.youtube.com/watch?v=Rf7OFcIKaXQ
 
 ## Prerequisites Installation
 
