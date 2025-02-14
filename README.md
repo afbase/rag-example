@@ -2,6 +2,10 @@
 
 This project is a web application built with Yew that interfaces with a locally hosted Ollama LLM to answer questions about /dev/color.
 
+## Youtube Demo (~3 and half minutes long)
+
+https://www.youtube.com/embed/Rf7OFcIKaXQ
+
 ## Prerequisites Installation
 
 ### 1. Install Ollama
