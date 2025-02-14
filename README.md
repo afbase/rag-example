@@ -68,7 +68,7 @@ trunk build
 
 ## Project Structure
 ```
-yew-ollama-chat/
+rag-example/
 ├── Cargo.toml
 ├── src/
 │   └── main.rs
